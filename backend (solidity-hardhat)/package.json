@@ -1,0 +1,21 @@
+{
+  "name": "backend(hardhat)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "solidity-coverage": "^0.8.4",
+    "dotenv": "^14.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
