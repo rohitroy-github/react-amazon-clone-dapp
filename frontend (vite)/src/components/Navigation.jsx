@@ -15,8 +15,8 @@ const Navigation = ({
     setAccount(account);
   };
 
-  const [searchQuery, setSearchQuery] = useState(""); // State to store search query
-  const [searchResults, setSearchResults] = useState([]); // State to store search results
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
 
   // searchFunctionality
   const handleSearchInputChange = (event) => {
@@ -30,12 +30,11 @@ const Navigation = ({
             item.name.toLowerCase().includes(query.toLowerCase()) ||
             item.category.toLowerCase().includes(query.toLowerCase())
         )
-      : []; // Send an empty array if query is empty
+      : [];
 
     setSearchResults(filteredResults);
-    // console.log(filteredResults);
-
     updateFilteredResults(filteredResults);
+    // console.log(filteredResults);
   };
 
   return (

@@ -10,9 +10,9 @@ const ProductsCatalogueSection = ({
 }) => {
   const [searchedProducts, setSearchedProducts] = useState([]);
 
+  // function -> extractProdcutsFromProps
   const extractSearchResults = (searchResults) => {
     setSearchedProducts(searchResults);
-
     // console.log(searchResults);
   };
 
@@ -28,6 +28,7 @@ const ProductsCatalogueSection = ({
 
   return (
     <>
+      {/* ifSearchedProduyctsArePresentThenDisplayThoseSearchedProducts ?*/}
       {searchedProducts.length > 0 ? (
         <>
           <Section
