@@ -8,32 +8,27 @@ const ProductsCatalogueSection = ({
   togglePop,
   searchResults,
 }) => {
-  const [searchedProducts, setSearchedProducts] = useState([]);
-
-  // function -> extractProdcutsFromProps
+  const [extractedSearchedProducts, setExtractedSearchedProducts] = useState(
+    []
+  );
+  // function -> extractProductsFromProps
   const extractSearchResults = (searchResults) => {
-    setSearchedProducts(searchResults);
-    // console.log(searchResults);
+    setExtractedSearchedProducts(searchResults);
+    // console.log(extractedSearchedProducts);
   };
 
   useEffect(() => {
     extractSearchResults(searchResults);
   }, [searchResults]);
 
-  useEffect(() => {
-    if (!searchResults || searchResults.length === 0) {
-      setSearchedProducts([]);
-    }
-  }, [searchResults]);
-
   return (
     <>
-      {/* ifSearchedProduyctsArePresentThenDisplayThoseSearchedProducts ?*/}
-      {searchedProducts.length > 0 ? (
+      {/* ifSearchedProduyctsArePresentThenDisplayThoseSearchedProducts?*/}
+      {extractedSearchedProducts.length > 0 ? (
         <>
           <Section
             title={"Searched Results ..."}
-            items={searchedProducts}
+            items={extractedSearchedProducts}
             togglePop={togglePop}
           />
         </>

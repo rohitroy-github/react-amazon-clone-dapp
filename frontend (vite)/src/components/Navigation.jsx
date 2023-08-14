@@ -18,7 +18,7 @@ const Navigation = ({
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
-  // searchFunctionality
+  // function -> searchFunctionality
   const handleSearchInputChange = (event) => {
     const query = event.target.value;
     setSearchQuery(query);
@@ -41,7 +41,7 @@ const Navigation = ({
     <>
       <nav>
         <div className="nav__brand">
-          <h1>Dappazon</h1>
+          <h1>Amazon Clone</h1>
         </div>
 
         {/* nonFunctionalSearchBar */}

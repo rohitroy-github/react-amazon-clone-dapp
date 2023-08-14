@@ -3,7 +3,6 @@ import {ethers} from "ethers";
 
 // Components
 import Navigation from "./components/Navigation";
-import Section from "./components/Section";
 import Product from "./components/Product";
 import ProductsCatalogueSection from "./components/ProductsCatalogueSection";
 
@@ -45,7 +44,7 @@ function App() {
 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     setProvider(provider);
-    const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+    // const contractAddress = "";
 
     const connectedNetwork = await provider.getNetwork();
 
