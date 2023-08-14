@@ -44,6 +44,7 @@ function App() {
 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     setProvider(provider);
+
     // const contractAddress = "";
 
     const connectedNetwork = await provider.getNetwork();
@@ -58,7 +59,10 @@ function App() {
 
     const items = [];
 
-    for (var i = 0; i < 9; i++) {
+    // const numberOfProducts = dappazon.items;
+    // console.log(`numberOfProducts : ${numberOfProducts}`);
+
+    for (var i = 0; i < 12; i++) {
       const item = await dappazon.items(i + 1);
       items.push(item);
     }
@@ -80,10 +84,10 @@ function App() {
     // console.log(toyItems);
   };
 
-  const [filteredResults, setFilteredResults] = useState([]);
-
-  const updateFilteredResults = (results) => {
-    setFilteredResults(results);
+  // toStoreSearchedProducts
+  const [searchResults, setSearchResults] = useState([]);
+  const updatedSearchResults = (results) => {
+    setSearchResults(results);
   };
 
   useEffect(() => {
@@ -96,7 +100,8 @@ function App() {
         account={account}
         setAccount={setAccount}
         listOfItems={listOfItems}
-        updateFilteredResults={updateFilteredResults}
+        // sendingTheFunction[updateFilteredResults]ThroughProps
+        updatedSearchResults={updatedSearchResults}
       />
 
       <div className="main_heading">
@@ -109,7 +114,7 @@ function App() {
             clothingItems={clothingItems}
             toyItems={toyItems}
             togglePop={togglePop}
-            searchResults={filteredResults}
+            searchResults={searchResults}
           />
         )}
 

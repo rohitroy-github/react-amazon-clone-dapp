@@ -5,7 +5,7 @@ const Navigation = ({
   account,
   setAccount,
   listOfItems,
-  updateFilteredResults,
+  updatedSearchResults,
 }) => {
   const connectHandler = async () => {
     const accounts = await window.ethereum.request({
@@ -33,7 +33,7 @@ const Navigation = ({
       : [];
 
     setSearchResults(filteredResults);
-    updateFilteredResults(filteredResults);
+    updatedSearchResults(filteredResults);
     // console.log(filteredResults);
   };
 
