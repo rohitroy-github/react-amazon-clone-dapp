@@ -2,7 +2,7 @@
   "name": "frontend-vite",
   "private": true,
   "version": "1.0.0",
-  "description": "Frontend file of Dappazon made using Vite JS.",
+  "description": "Frontend file of vite-amazon-clone-dapp made using Vite JS.",
   "type": "module",
   "scripts": {
     "dev": "vite",

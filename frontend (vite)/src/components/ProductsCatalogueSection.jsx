@@ -35,14 +35,14 @@ const ProductsCatalogueSection = ({
       ) : (
         <>
           <Section
-            title={"Clothing"}
-            items={clothingItems}
+            title={"Electronics & Gadgets"}
+            items={electronicItems}
             togglePop={togglePop}
           />
 
           <Section
-            title={"Electronics & Gaming"}
-            items={electronicItems}
+            title={"Clothing"}
+            items={clothingItems}
             togglePop={togglePop}
           />
 

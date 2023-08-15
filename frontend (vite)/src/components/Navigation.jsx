@@ -41,7 +41,7 @@ const Navigation = ({
     <>
       <nav>
         <div className="nav__brand">
-          <h2>Dappazon</h2>
+          <h2>Aamazon.in</h2>
         </div>
 
         {/* nonFunctionalSearchBar */}
@@ -76,6 +76,10 @@ const Navigation = ({
             Connect
           </button>
         )}
+
+        <div className="nav__subheading">
+          <h3>A decentralized Aamazon.in powered by blockchain</h3>
+        </div>
 
         <ul className="nav__links">
           <li>

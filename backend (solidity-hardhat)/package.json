@@ -1,7 +1,7 @@
 {
   "name": "backend-hardhat",
   "version": "1.0.0",
-  "description": "Backend file of Dappazon made using Hardhat.",
+  "description": "Backend file of vite-amazon-clone-dapp made using Hardhat.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

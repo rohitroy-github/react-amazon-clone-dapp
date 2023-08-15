@@ -62,7 +62,7 @@ function App() {
     // const numberOfProducts = dappazon.items;
     // console.log(`numberOfProducts : ${numberOfProducts}`);
 
-    for (var i = 0; i < 15; i++) {
+    for (var i = 0; i < 18; i++) {
       const item = await dappazon.items(i + 1);
       items.push(item);
     }
