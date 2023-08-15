@@ -62,7 +62,7 @@ function App() {
     // const numberOfProducts = dappazon.items;
     // console.log(`numberOfProducts : ${numberOfProducts}`);
 
-    for (var i = 0; i < 12; i++) {
+    for (var i = 0; i < 15; i++) {
       const item = await dappazon.items(i + 1);
       items.push(item);
     }
@@ -70,7 +70,8 @@ function App() {
     setListOfItems(items);
 
     const electronicItems = items.filter(
-      (item) => item.category === "electronics"
+      (item) =>
+        item.category === "electronics" || item.category === "Electronics"
     );
     const clothingItems = items.filter((item) => item.category === "clothing");
     const toyItems = items.filter((item) => item.category === "toys");

@@ -2,9 +2,9 @@
   "items": [
     {
       "id": 1,
-      "name": "Camera - 1",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
+      "name": "Canon 200D II DSLR",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/QmVjxVLm5XfDFjyE57J8YHCm3CkoX24gkFV4vpAmntGDR6?filename=canon_200d.png",
       "price": "1",
       "rating": 4,
       "stock": 10
@@ -92,21 +92,48 @@
     },
     {
       "id": 11,
-      "name": "Camera - 3",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
-      "price": "1",
+      "name": "Canon 1500D DSLR",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/Qme85wpkqf97gzU6eQtVD6U3W53nNo82S1Lnn62xxG1odf?filename=canon_1500d.png",
+      "price": "1.5",
       "rating": 4,
       "stock": 10
     },
     {
       "id": 12,
-      "name": "Drone - 2",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
-      "price": "2.5",
+      "name": "Canon M50 DSLR",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/QmT7nyxf83EPVifpbqA6XU6nsLjtoa3jnoMZ1rpDU95cr2?filename=canon_m50.png",
+      "price": "1.5",
+      "rating": 4,
+      "stock": 10
+    },
+    {
+      "id": 13,
+      "name": "Apple iPhone 12 (64GB) - Purple",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/QmdvEsV7r5T2Fet4hsLajY9q3kF6Uv75shoZgA6amTpWrg?filename=iphone_12.jpg",
+      "price": "0.9",
+      "rating": 4,
+      "stock": 10
+    },
+    {
+      "id": 14,
+      "name": "Apple iPhone 14 Pro (128 GB) - Space Black",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/QmXRdGzz3yAb53p2TujQDcMDngaLXminWdcpYJ6HP6X8pC?filename=iphone_14pro.jpg",
+      "price": "1.5",
       "rating": 5,
-      "stock": 6
+      "stock": 10
+    },
+    {
+      "id": 15,
+      "name": "Apple iPhone 14 Pro Max (128 GB) - Gold",
+      "category": "Electronics",
+      "image": "https://ipfs.io/ipfs/QmafwTZYaxwgUgpdtKS7VcwrqAGBJYvHSfyS8fiayxxmYs?filename=iphone_14promax.jpg",
+      "price": "1.3",
+      "rating": 5,
+      "stock": 10
     }
   ]
 }
