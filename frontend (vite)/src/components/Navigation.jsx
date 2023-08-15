@@ -41,7 +41,7 @@ const Navigation = ({
     <>
       <nav>
         <div className="nav__brand">
-          <h1>Amazon Clone</h1>
+          <h2>Dappazon</h2>
         </div>
 
         {/* nonFunctionalSearchBar */}
@@ -54,6 +54,14 @@ const Navigation = ({
           value={searchQuery}
           onChange={handleSearchInputChange}
         />
+
+        <div className="nav__india_en">
+          <h3>India En</h3>
+        </div>
+
+        <button className="nav__orders">
+          <h3>Returns & Orders</h3>
+        </button>
 
         {account ? (
           <button type="button" className="nav__connect">

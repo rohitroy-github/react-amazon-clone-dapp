@@ -45,7 +45,7 @@ const Product = ({item, provider, account, dappazon, togglePop}) => {
     await transaction.wait();
 
     const contractBalance = ethers.utils.formatEther(
-      await provider.getBalance("0x5fbdb2315678afecb367f032d93f642f64180aa3")
+      await provider.getBalance("0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82")
     );
 
     console.log(

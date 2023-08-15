@@ -104,8 +104,8 @@ function App() {
         updatedSearchResults={updatedSearchResults}
       />
 
-      <div className="main_heading">
-        <h2>Project Dappazon</h2>
+      <div className="text_center">
+        {/* <h2>Project Dappazon</h2> */}
 
         {/* ifDataIsAvailable? */}
         {electronicItems && clothingItems && toyItems && (
