@@ -127,16 +127,23 @@ nav {
 }
 
 .nav__links li {
-  margin: 0 15px;
+  margin: 0 25px;
 }
 
 .nav__links li a {
   text-decoration: none;
+}
+
+.nav__links li a h3 {
+  text-decoration: none;
+  font-weight: 200;
   color: var(--clr-white);
 }
 
-.nav__links li a:hover {
+.nav__links li a h3:hover {
   color: var(--clr-orange);
+  text-decoration: none;
+  font-weight: 200;
 }
 
 .nav__search {
