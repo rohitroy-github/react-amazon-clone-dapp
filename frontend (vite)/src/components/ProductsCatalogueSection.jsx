@@ -2,9 +2,9 @@ import Section from "./Section";
 import {useEffect, useState} from "react";
 
 const ProductsCatalogueSection = ({
-  electronicItems,
-  clothingItems,
-  toyItems,
+  categoryCamera,
+  categoryMobile,
+  categoryHeadphone,
   togglePop,
   searchResults,
 }) => {
@@ -35,20 +35,20 @@ const ProductsCatalogueSection = ({
       ) : (
         <>
           <Section
-            title={"Electronics & Gadgets"}
-            items={electronicItems}
+            title={"DSLR & Cameras"}
+            items={categoryCamera}
             togglePop={togglePop}
           />
 
           <Section
-            title={"Clothing"}
-            items={clothingItems}
+            title={"Mobile & Tablets"}
+            items={categoryMobile}
             togglePop={togglePop}
           />
 
           <Section
-            title={"Toys & Gaming"}
-            items={toyItems}
+            title={"Headphones & Accessories"}
+            items={categoryHeadphone}
             togglePop={togglePop}
           />
         </>

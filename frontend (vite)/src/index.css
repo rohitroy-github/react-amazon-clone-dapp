@@ -313,7 +313,7 @@ nav {
 
 .product__image {
   max-width: 500px;
-  margin: 20px auto;
+  padding: 20px;
 }
 
 .product__image img {
@@ -341,7 +341,7 @@ nav {
 
 .product__overview {
   height: 90%;
-  padding: 20px 40px 20px 20px;
+  padding: 20px;
 }
 
 .product__overview h2,
@@ -362,6 +362,10 @@ nav {
   padding: 20px;
 }
 
+.product__order h2 {
+  margin-bottom: 10px;
+}
+
 .product__order h1,
 .product__order p {
   margin-bottom: 10px;
@@ -370,7 +374,7 @@ nav {
 .product__buy {
   width: 225px;
   height: 40px;
-  margin: 20px 0;
+  margin: 10px 0;
 
   background-color: var(--clr-orange);
   color: var(--clr-black);

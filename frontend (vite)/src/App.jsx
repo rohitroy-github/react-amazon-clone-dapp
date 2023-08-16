@@ -19,7 +19,10 @@ function App() {
   const [dappazon, setDappazon] = useState({});
 
   // storingProducts
-  const [electronicItems, setElectronicItems] = useState(null);
+  const [categoryCamera, setCategoryCamera] = useState(null);
+  const [categoryMobile, setCategoryMobile] = useState(null);
+  const [categoryHeadphone, setCategoryHeadphone] = useState(null);
+
   const [clothingItems, setClothingItems] = useState(null);
   const [toyItems, setToyItems] = useState(null);
 
@@ -69,20 +72,19 @@ function App() {
 
     setListOfItems(items);
 
-    const electronicItems = items.filter(
-      (item) =>
-        item.category === "electronics" || item.category === "Electronics"
+    const categoryCamera = items.filter(
+      (item) => item.category === "DSLR & Cameras"
     );
-    const clothingItems = items.filter((item) => item.category === "clothing");
-    const toyItems = items.filter((item) => item.category === "toys");
+    const categoryMobile = items.filter(
+      (item) => item.category === "Mobile & Tablets"
+    );
+    const categoryHeadphone = items.filter(
+      (item) => item.category === "Headphones & Accessories"
+    );
 
-    setElectronicItems(electronicItems);
-    setClothingItems(clothingItems);
-    setToyItems(toyItems);
-
-    // console.log(electronicItems);
-    // console.log(clothingItems);
-    // console.log(toyItems);
+    setCategoryCamera(categoryCamera);
+    setCategoryMobile(categoryMobile);
+    setCategoryHeadphone(categoryHeadphone);
   };
 
   // toStoreSearchedProducts
@@ -109,11 +111,11 @@ function App() {
         {/* <h2>Project Dappazon</h2> */}
 
         {/* ifDataIsAvailable? */}
-        {electronicItems && clothingItems && toyItems && (
+        {categoryCamera && categoryMobile && categoryHeadphone && (
           <ProductsCatalogueSection
-            electronicItems={electronicItems}
-            clothingItems={clothingItems}
-            toyItems={toyItems}
+            categoryCamera={categoryCamera}
+            categoryMobile={categoryMobile}
+            categoryHeadphone={categoryHeadphone}
             togglePop={togglePop}
             searchResults={searchResults}
           />

@@ -72,6 +72,9 @@ const Product = ({item, provider, account, dappazon, togglePop}) => {
 
           <div className="product__overview">
             <h1>{item.name}</h1>
+            <p>
+              in categories <b>{item.category}</b>
+            </p>
             <Rating value={item.rating} />
             <hr />
             <p>{item.address}</p>
@@ -120,10 +123,10 @@ const Product = ({item, provider, account, dappazon, togglePop}) => {
             </button>
 
             <p>
-              <small>Ships from</small> Dappazon
+              <small>Shipped from</small> Amazon
             </p>
             <p>
-              <small>Sold by</small> Dappazon
+              <small>Sold by</small> Amazon
             </p>
 
             {order && (

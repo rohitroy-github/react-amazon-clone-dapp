@@ -83,18 +83,18 @@ const Navigation = ({
 
         <ul className="nav__links">
           <li>
-            <a href="#Clothing & Jewelry">
-              <h3>Clothing & Jewelry</h3>
+            <a href="#DSLR & Cameras">
+              <h3>DSLR & Cameras</h3>
             </a>
           </li>
           <li>
-            <a href="#Electronics & Gadgets">
-              <h3>Electronics & Gadgets</h3>
+            <a href="#Mobile & Tablets">
+              <h3>Mobile & Tablets</h3>
             </a>
           </li>
           <li>
-            <a href="#Toys & Gaming">
-              <h3>Toys & Gaming</h3>
+            <a href="#Headphones & Accessories">
+              <h3>Headphones & Accessories</h3>
             </a>
           </li>
         </ul>
