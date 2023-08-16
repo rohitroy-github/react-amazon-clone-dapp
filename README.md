@@ -1,6 +1,6 @@
 <h2>Amazon Clone Dapp (EVM Based)</h2>
 
-<b>This is a decentralized version of Aamazon.in powered by blockchain and designed using Vite JS.</b>
+<b>This is a decentralized version of Amazon.in powered by blockchain and designed using Vite JS.</b>
 
 <!-- Currently, the app is working on localhost using <b>Sepolia test network</b> and Alchemy. -->
 

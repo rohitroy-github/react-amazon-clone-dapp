@@ -23,9 +23,6 @@ function App() {
   const [categoryMobile, setCategoryMobile] = useState(null);
   const [categoryHeadphone, setCategoryHeadphone] = useState(null);
 
-  const [clothingItems, setClothingItems] = useState(null);
-  const [toyItems, setToyItems] = useState(null);
-
   const [listOfItems, setListOfItems] = useState(null);
 
   const [item, setItem] = useState({});
