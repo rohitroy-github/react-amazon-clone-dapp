@@ -6,9 +6,9 @@
 
 <b>Snapshots from the project : </b>
 
-![Screenshot (320)](https://github.com/rohitroy-github/web3-todo-planner/assets/68563695/f9d65689-1f2e-46d7-871a-bc4003766956)
+![c-1](https://github.com/rohitroy-github/vite-amazon-clone-dapp/assets/68563695/9888a8ea-2826-4a8b-b5e7-47fdd3af2385)
 
-![Screenshot (323)](https://github.com/rohitroy-github/web3-todo-planner/assets/68563695/3e5bd4fe-8771-4c37-8e78-45d71c98c272)
+![c-2](https://github.com/rohitroy-github/vite-amazon-clone-dapp/assets/68563695/dd8d5b35-412a-43e6-9f50-d8395f6eff49)
 
 <b>Tech Stack :</b>
 
