@@ -88,13 +88,24 @@ const Product = ({item, provider, account, dappazon, togglePop}) => {
             </h2>
 
             <p>
-              FREE delivery <br />
-              <strong>
+              FREE delivery on{" "}
+              <b>
                 {new Date(Date.now() + 345600000).toLocaleDateString(
                   undefined,
                   {weekday: "long", month: "long", day: "numeric"}
                 )}
-              </strong>
+              </b>
+            </p>
+
+            <p>
+              Fastest delivery on{" "}
+              <b>
+                {new Date(Date.now() + 172800000).toLocaleDateString(
+                  undefined,
+                  {weekday: "long", month: "long", day: "numeric"}
+                )}
+              </b>{" "}
+              with a delivery fees on 0.005 ETH
             </p>
 
             {/* checkForStock? */}

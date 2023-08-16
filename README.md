@@ -26,4 +26,4 @@
     <li>Alchemy</li>
 </ul>
 
-The project is complete but I'm making constant modifications to the project.
+The project is complete but I'm open to modificatications.
