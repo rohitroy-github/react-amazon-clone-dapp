@@ -7,7 +7,7 @@ import Product from "./components/Product";
 import ProductsCatalogueSection from "./components/ProductsCatalogueSection";
 
 // ABIs
-import Dappazon from "./abis/Dappazon.json";
+import DappazonABIFile from "../../backend-hardhat/artifacts/contracts/Dappazon.sol/Dappazon.json";
 
 // Config
 import config from "./config.json";
@@ -53,7 +53,8 @@ function App() {
 
     const dappazon = new ethers.Contract(
       config[connectedNetwork.chainId].contract.address,
-      Dappazon,
+      // "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      DappazonABIFile.abi,
       provider.getSigner()
     );
 
