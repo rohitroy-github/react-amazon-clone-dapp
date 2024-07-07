@@ -49,6 +49,8 @@ function App() {
 
     const connectedNetwork = await provider.getNetwork();
 
+    // console.log(connectedNetwork);
+
     const dappazon = new ethers.Contract(
       config[connectedNetwork.chainId].contract.address,
       Dappazon,
