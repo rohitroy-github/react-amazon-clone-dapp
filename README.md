@@ -7,7 +7,7 @@
 <b>Snapshots from the project : </b>
 
 <img src="https://github.com/rohitroy-github/vite-amazon-clone-dapp/assets/68563695/9888a8ea-2826-4a8b-b5e7-47fdd3af2385" width="750">
-
+<br />
 <img src="https://github.com/rohitroy-github/vite-amazon-clone-dapp/assets/68563695/dd8d5b35-412a-43e6-9f50-d8395f6eff49" width="750">
 
 <h3><b>Tech Stack :</b></h3>
@@ -32,12 +32,14 @@
 
 <b>Environment variables :</b>
 
+Create a new .env file inside [backend-hardhat] folder taking reference from .env.example file inside the same.
+
 <b>Backend :</b>
 
 Terminal 1:
 
 <ul>
-    <li>Run (Move inside [blockchain-hardhat] folder) : <b>cd blockchain-hardhat</b></li>
+    <li>Run (Move inside [backend-hardhat] folder) : <b>cd backend-hardhat</b></li>
     <li>Run (Running Hardhat node locally) : <b>npx hardhat node</b></li>
 
 </ul>
@@ -45,7 +47,7 @@ Terminal 1:
 Terminal 2:
 
 <ul>
-    <li>Run (Move inside [blockchain-hardhat] folder) : <b>cd blockchain-hardhat</b></li>
+    <li>Run (Move inside [backend-hardhat] folder) : <b>cd backend-hardhat</b></li>
     <li>Run (Running tests | Optional) : <b>npx hardhat test</b></li>
     <li>Run (Running deployment script) : <b>npx hardhat run scripts/deploy[Todo_Contract_Main].js --network localhost</b></li>
 </ul>
